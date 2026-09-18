@@ -1,0 +1,160 @@
+import { Review } from '../models/review.model';
+
+export const MOCK_REVIEWS: Review[] = [
+  {
+    id: 'REV-13',
+    author: 'Rodrigo Mendoza',
+    rating: 5,
+    date: 'Hace 35 min',
+    comment: 'Hermano mil gracias de verdad, me dio desconfianza al inicio por el valor pero el asesor me pasó todo por WhatsApp en vivo, vinculamos mi correo y ya tengo mi cuenta. Recomendadísimos al 100% 🔥',
+    verified: true,
+    productPurchased: 'Cuenta Veterana Nvl 72 (NX-892)',
+    proofImage: 'img/2.4.jpeg',
+    country: 'Perú 🇵🇪',
+    likesCount: 38
+  },
+  {
+    id: 'REV-12',
+    author: 'Santiago Morales',
+    rating: 5,
+    date: 'Hace 2 hours',
+    comment: 'Pagué por Nequi y en menos de 2 minutos ya tenía el correo cambiado con mi número. Trae el pase Booyah tal como decían. Excelente servicio ⚡',
+    verified: true,
+    productPurchased: 'Cuenta con Pase Booyah (NX-820)',
+    proofImage: 'img/2.3.jpeg',
+    country: 'Colombia 🇨🇴',
+    likesCount: 29
+  },
+  {
+    id: 'REV-11',
+    author: 'Carlos Hernández',
+    rating: 5,
+    date: 'Hace 5 horas',
+    comment: 'Pagué por OXXO / SPEI y la atención de Nairoxstoreff fue impecable. Me ayudaron a asegurar el correo nuevo con mi número personal. Todo limpio y seguro 🛡️',
+    verified: true,
+    productPurchased: 'Cuenta Criminal Rojo + Angelicales (NX-741)',
+    proofImage: 'img/2.2.jpeg',
+    country: 'México 🇲🇽',
+    likesCount: 44
+  },
+  {
+    id: 'REV-10',
+    author: 'Esteban Valenzuela',
+    rating: 5,
+    date: 'Hace 8 horas',
+    comment: 'Todo legal y rápido como siempre. Ya van 4 compras que hago con ellos para cuentas secundarias y nunca fallan. De las pocas tiendas serias que quedan 👑',
+    verified: true,
+    productPurchased: 'Cuenta de Nivel Avanzado (NX-700)',
+    proofImage: 'img/2.1.jpeg',
+    country: 'Chile 🇨🇱',
+    likesCount: 19
+  },
+  {
+    id: 'REV-9',
+    author: 'Junior Cárdenas',
+    rating: 5,
+    date: 'Ayer',
+    comment: 'Yapeé el monto completo y el traspaso del Gmail fue inmediato con su verificación de dos pasos. La cuenta vino con todas las armas maxeadas tal como en las fotos.',
+    verified: true,
+    productPurchased: 'Cuenta Full 12 Evolutivas Max (NX-650)',
+    proofImage: 'img/1.9.jpeg',
+    country: 'Perú 🇵🇪',
+    likesCount: 52
+  },
+  {
+    id: 'REV-8',
+    author: 'Matías Benítez',
+    rating: 5,
+    date: 'Ayer',
+    comment: 'Pagué por Binance USDT, acreditación al instante sin vueltas. Nairox responde al toque por WhatsApp. Muy buena onda para el traspaso de mi nueva cuenta.',
+    verified: true,
+    productPurchased: 'Cuenta con Traje de Fútbol y Picos (NX-615)',
+    proofImage: 'img/1.8.jpeg',
+    country: 'Argentina 🇦🇷',
+    likesCount: 27
+  },
+  {
+    id: 'REV-7',
+    author: 'Diego Alejandro',
+    rating: 5,
+    date: 'Hace 2 días',
+    comment: 'Compré la cuenta secundaria para streamear en TikTok y vino perfecta. Entrega en 3 minutos por WhatsApp y todo asegurado sin riesgo de baneo.',
+    verified: true,
+    productPurchased: 'Cuenta Smurf Heroica (NX-512)',
+    proofImage: 'img/1.7.jpeg',
+    country: 'Colombia 🇨🇴',
+    likesCount: 31
+  },
+  {
+    id: 'REV-6',
+    author: 'Fabián Ortiz',
+    rating: 5,
+    date: 'Hace 3 días',
+    comment: 'Excelente atención al cliente, me explicaron todo con paciencia. El traspaso fue súper rápido y seguro.',
+    verified: true,
+    productPurchased: 'Cuenta de Nivel Avanzado con Pases Antiguos',
+    proofImage: 'img/1.6.jpeg',
+    country: 'Ecuador 🇪🇨',
+    likesCount: 18
+  },
+  {
+    id: 'REV-5',
+    author: 'Bryan Quispe',
+    rating: 5,
+    date: 'Hace 4 días',
+    comment: 'Pagué por Plin, me atendió el asesor y en 5 minutos ya tenía el correo cambiado a mi nombre. Los angelicales blancos y los pases antiguos tal como prometieron.',
+    verified: true,
+    productPurchased: 'Cuenta Veterana SAC + Angelicales (NX-409)',
+    proofImage: 'img/1.5.jpeg',
+    country: 'Perú 🇵🇪',
+    likesCount: 41
+  },
+  {
+    id: 'REV-4',
+    author: 'Axel Romero',
+    rating: 5,
+    date: 'Hace 5 días',
+    comment: 'Súper confiable, la recarga fue directa por ID, ya tenía unos diamantes y ahora con la recarga más el bono extra llegué a casi 3000. Excelente 💎',
+    verified: true,
+    productPurchased: 'Recarga de 2180💎 + Bono Extra',
+    proofImage: 'img/1.4.jpeg',
+    country: 'México 🇲🇽',
+    likesCount: 22
+  },
+  {
+    id: 'REV-3',
+    author: 'Lucas Gómez',
+    rating: 5,
+    date: 'Hace 1 semana',
+    comment: 'Buscaba una cuenta Sakura para la región EU y acá la conseguí a excelente precio. Cero problemas con el correo, 100% legal.',
+    verified: true,
+    productPurchased: 'Cuenta Sakura S1 Europa (NX-304)',
+    proofImage: 'img/1.3.jpeg',
+    country: 'Bolivia 🇧🇴',
+    likesCount: 35
+  },
+  {
+    id: 'REV-2',
+    author: 'Gonzalo Silva',
+    rating: 5,
+    date: 'Hace 1 semana',
+    comment: 'Atención 10/10. Muy atentos en el chat de WhatsApp y me confirmaron el comprobante al instante del traspaso de mi nueva cuenta.',
+    verified: true,
+    productPurchased: 'Cuenta Veterana (NX-214)',
+    proofImage: 'img/1.2.jpeg',
+    country: 'Chile 🇨🇱',
+    likesCount: 16
+  },
+  {
+    id: 'REV-1',
+    author: 'Jean Carlos P.',
+    rating: 5,
+    date: 'Hace 2 semanas',
+    comment: 'Mi primera compra en la tienda y quedé encantado. El soporte me dio la seguridad que necesitaba y el cambio de datos fue limpio. ¡Muchas gracias Nairoxstoreff!',
+    verified: true,
+    productPurchased: 'Cuenta Sakura OG + MP40 Cobra Max',
+    proofImage: 'img/1.1.jpeg',
+    country: 'Perú 🇵🇪',
+    likesCount: 63
+  }
+];

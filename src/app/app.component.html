@@ -1,0 +1,41 @@
+<div class="relative min-h-screen bg-[#06060a] text-slate-100 bg-cyber-grid bg-radial-glow overflow-hidden font-sans selection:bg-amber-400 selection:text-black">
+  
+  <!-- Subtle fiery decorative ambient lights -->
+  <div class="absolute top-0 left-1/4 w-[600px] h-[400px] bg-red-600/15 rounded-full blur-[140px] pointer-events-none -z-10 animate-pulse-slow"></div>
+  <div class="absolute top-40 right-1/4 w-[500px] h-[350px] bg-amber-500/12 rounded-full blur-[140px] pointer-events-none -z-10"></div>
+  <div class="absolute bottom-1/3 left-1/3 w-[700px] h-[500px] bg-orange-600/10 rounded-full blur-[160px] pointer-events-none -z-10"></div>
+
+  <!-- Header Component (Fiery Red & Gold with 720+ Counter) -->
+  <app-header></app-header>
+
+  <!-- Navigation Tabs (Pills: Información, Disponibles, Diamantes, Reseñas) -->
+  <app-navigation-tabs></app-navigation-tabs>
+
+  <!-- Dynamic Tab Content Views -->
+  <main class="min-h-[500px]">
+    @switch (store.activeTab()) {
+      @case ('info') {
+        <app-info-tab></app-info-tab>
+      }
+      @case ('accounts') {
+        <app-accounts-tab></app-accounts-tab>
+      }
+      @case ('diamonds') {
+        <app-diamonds-tab></app-diamonds-tab>
+      }
+      @case ('reviews') {
+        <app-reviews-tab></app-reviews-tab>
+      }
+    }
+  </main>
+
+  <!-- Modals & Lightbox -->
+  <app-account-modal></app-account-modal>
+
+  <!-- Floating Action Buttons & Chat Support -->
+  <app-floating-widgets></app-floating-widgets>
+
+  <!-- Footer -->
+  <app-footer></app-footer>
+
+</div>

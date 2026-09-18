@@ -1,0 +1,122 @@
+import { DiamondPackage } from '../models/diamond.model';
+
+export const MOCK_DIAMOND_PACKAGES: DiamondPackage[] = [
+  {
+    id: 'D-100',
+    name: 'Pack Básico',
+    diamonds: 100,
+    bonus: 10,
+    price: 1.10,
+    originalPrice: 1.50,
+    currency: 'USD',
+    category: 'diamonds',
+    deliveryTime: '1 a 3 minutos',
+    badge: 'Rápido',
+    icon: '💎'
+  },
+  {
+    id: 'D-310',
+    name: 'Pack Starter',
+    diamonds: 310,
+    bonus: 31,
+    price: 3.20,
+    originalPrice: 4.00,
+    currency: 'USD',
+    category: 'diamonds',
+    deliveryTime: '1 a 3 minutos',
+    icon: '💎'
+  },
+  {
+    id: 'D-520',
+    name: 'Pack Élite',
+    diamonds: 520,
+    bonus: 52,
+    price: 5.30,
+    originalPrice: 6.50,
+    currency: 'USD',
+    category: 'diamonds',
+    deliveryTime: '1 a 3 minutos',
+    isPopular: true,
+    badge: 'MÁS VENDIDO 🔥',
+    icon: '💎'
+  },
+  {
+    id: 'D-1060',
+    name: 'Pack Heroico',
+    diamonds: 1060,
+    bonus: 106,
+    price: 10.40,
+    originalPrice: 12.50,
+    currency: 'USD',
+    category: 'diamonds',
+    deliveryTime: '1 a 3 minutos',
+    badge: '10% EXTRA',
+    icon: '💎'
+  },
+  {
+    id: 'D-2180',
+    name: 'Pack Maestro',
+    diamonds: 2180,
+    bonus: 218,
+    price: 20.80,
+    originalPrice: 25.00,
+    currency: 'USD',
+    category: 'diamonds',
+    deliveryTime: '2 a 5 minutos',
+    badge: 'SÚPER AHORRO',
+    icon: '💎'
+  },
+  {
+    id: 'D-5600',
+    name: 'Pack Gran Maestro (VIP)',
+    diamonds: 5600,
+    bonus: 560,
+    price: 51.50,
+    originalPrice: 62.00,
+    currency: 'USD',
+    category: 'diamonds',
+    deliveryTime: '2 a 5 minutos',
+    isPopular: true,
+    badge: 'BONO VIP 560💎',
+    icon: '👑'
+  },
+  {
+    id: 'M-WEEK',
+    name: 'Membresía Semanal',
+    diamonds: 450,
+    bonus: 0,
+    price: 2.10,
+    originalPrice: 2.80,
+    currency: 'USD',
+    category: 'membership',
+    deliveryTime: 'Instantáneo',
+    badge: '450💎 Totales',
+    icon: '⭐'
+  },
+  {
+    id: 'M-MONTH',
+    name: 'Membresía Mensual',
+    diamonds: 2600,
+    bonus: 0,
+    price: 10.20,
+    originalPrice: 12.99,
+    currency: 'USD',
+    category: 'membership',
+    deliveryTime: 'Instantáneo',
+    badge: '2600💎 Totales',
+    icon: '🌟'
+  },
+  {
+    id: 'P-BOOYAH',
+    name: 'Pase Booyah Premium Plus',
+    diamonds: 0,
+    bonus: 0,
+    price: 4.80,
+    originalPrice: 6.00,
+    currency: 'USD',
+    category: 'pass',
+    deliveryTime: 'Instantáneo',
+    badge: '50 Niveles Desbloqueados',
+    icon: '🎫'
+  }
+];
