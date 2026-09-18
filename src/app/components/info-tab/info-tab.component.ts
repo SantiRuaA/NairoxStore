@@ -99,58 +99,64 @@ interface FAQ {
         <h3 class="text-xl sm:text-2xl font-black text-white mt-2 mb-6 font-display">Métodos de Pago Disponibles</h3>
 
         <div class="flex flex-wrap items-center justify-center gap-3 sm:gap-4">
-          <!-- Yape -->
-          <div class="px-4 py-2.5 rounded-xl bg-[#671288]/25 border border-[#8b24b4]/50 flex items-center gap-2 shadow-sm">
-            <span class="text-base">🟣</span>
-            <span class="text-sm font-bold text-white">Yape (Perú)</span>
+          <!-- Remitly -->
+          <div class="px-4 py-2.5 rounded-xl bg-[#0047FF]/20 border border-[#0047FF]/50 flex items-center gap-2 shadow-sm">
+            <span class="text-base">💸</span>
+            <span class="text-sm font-bold text-white">Remitly</span>
           </div>
 
-          <!-- Plin -->
-          <div class="px-4 py-2.5 rounded-xl bg-[#00c5c4]/20 border border-[#00c5c4]/50 flex items-center gap-2 shadow-sm">
-            <span class="text-base">🔵</span>
-            <span class="text-sm font-bold text-white">Plin (Perú)</span>
+          <!-- Intermex -->
+          <div class="px-4 py-2.5 rounded-xl bg-[#006F39]/20 border border-[#006F39]/50 flex items-center gap-2 shadow-sm">
+            <span class="text-base">💱</span>
+            <span class="text-sm font-bold text-white">Intermex</span>
+          </div>
+
+          <!-- Ría -->
+          <div class="px-4 py-2.5 rounded-xl bg-[#F47920]/20 border border-[#F47920]/50 flex items-center gap-2 shadow-sm">
+            <span class="text-base">🟠</span>
+            <span class="text-sm font-bold text-white">Ría</span>
+          </div>
+
+          <!-- Zelle -->
+          <div class="px-4 py-2.5 rounded-xl bg-[#7411E2]/20 border border-[#7411E2]/50 flex items-center gap-2 shadow-sm">
+            <span class="text-base">🟣</span>
+            <span class="text-sm font-bold text-white">Zelle</span>
+          </div>
+
+          <!-- Banrural -->
+          <div class="px-4 py-2.5 rounded-xl bg-[#005128]/20 border border-[#005128]/50 flex items-center gap-2 shadow-sm">
+            <span class="text-base">🌾</span>
+            <span class="text-sm font-bold text-white">Banrural</span>
           </div>
 
           <!-- Nequi -->
           <div class="px-4 py-2.5 rounded-xl bg-[#200030]/80 border border-purple-500/50 flex items-center gap-2 shadow-sm">
             <span class="text-base">💜</span>
-            <span class="text-sm font-bold text-white">Nequi (Colombia)</span>
+            <span class="text-sm font-bold text-white">Nequi</span>
           </div>
 
-          <!-- Daviplata -->
-          <div class="px-4 py-2.5 rounded-xl bg-[#e31b23]/20 border border-[#e31b23]/50 flex items-center gap-2 shadow-sm">
-            <span class="text-base">🔴</span>
-            <span class="text-sm font-bold text-white">Daviplata</span>
-          </div>
-
-          <!-- Mercado Pago -->
-          <div class="px-4 py-2.5 rounded-xl bg-[#009ee3]/20 border border-[#009ee3]/50 flex items-center gap-2 shadow-sm">
-            <span class="text-base">🤝</span>
-            <span class="text-sm font-bold text-white">Mercado Pago</span>
-          </div>
-
-          <!-- Binance USDT -->
+          <!-- Binance -->
           <div class="px-4 py-2.5 rounded-xl bg-[#f0b90b]/20 border border-[#f0b90b]/50 flex items-center gap-2 shadow-sm">
             <span class="text-base">🟡</span>
-            <span class="text-sm font-extrabold text-yellow-300">Binance Pay (USDT)</span>
+            <span class="text-sm font-extrabold text-yellow-300">Binance</span>
           </div>
 
-          <!-- PayPal -->
-          <div class="px-4 py-2.5 rounded-xl bg-[#003087]/25 border border-blue-400/50 flex items-center gap-2 shadow-sm">
-            <span class="text-base">💳</span>
-            <span class="text-sm font-bold text-blue-200">PayPal Internacional</span>
-          </div>
-
-          <!-- OXXO -->
-          <div class="px-4 py-2.5 rounded-xl bg-[#e02020]/20 border border-red-500/50 flex items-center gap-2 shadow-sm">
-            <span class="text-base">🏪</span>
-            <span class="text-sm font-bold text-white">OXXO (México)</span>
-          </div>
-
-          <!-- Transferencias -->
+          <!-- Transferencia mx -->
           <div class="px-4 py-2.5 rounded-xl bg-[#1e293b]/70 border border-slate-700 flex items-center gap-2 shadow-sm">
             <span class="text-base">🏦</span>
-            <span class="text-sm font-bold text-slate-200">Transferencia Bancaria</span>
+            <span class="text-sm font-bold text-slate-200">Transferencia mx</span>
+          </div>
+
+          <!-- Oxxo -->
+          <div class="px-4 py-2.5 rounded-xl bg-[#e02020]/20 border border-red-500/50 flex items-center gap-2 shadow-sm">
+            <span class="text-base">🏪</span>
+            <span class="text-sm font-bold text-white">Oxxo</span>
+          </div>
+
+          <!-- Pichincha -->
+          <div class="px-4 py-2.5 rounded-xl bg-[#FFDD00]/20 border border-[#FFDD00]/50 flex items-center gap-2 shadow-sm">
+            <span class="text-base">🇪🇨</span>
+            <span class="text-sm font-bold text-yellow-100">Pichincha</span>
           </div>
         </div>
       </div>
